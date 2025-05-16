@@ -10,6 +10,13 @@ This project demonstrates how to deploy a static website hosted on an Apache Web
 - User Data Script (for automation)  
 - Amazon Linux 2
 
+  
+## 02. Network Architecture
+
+![VPC Network Diagram](Architercture/aws-vpc-network-diagram.png)
+
+
+
 ##  Steps to Reproduce
 
 1. **Launch EC2**: Amazon Linux 2, t2.micro (Free Tier), open ports 22 & 80.
@@ -25,7 +32,9 @@ cd /var/www/html
 git clone https://github.com/your-username/EC2-Apache-WebServer-Deployment.git .
 ```
 
-3. **Access site**: http://<your-ec2-public-ip>
+## Output
+1. **Access site**: http://<your-ec2-public-ip>
+
 
 ##  Files
 
