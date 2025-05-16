@@ -1,2 +1,35 @@
-# aws-ec2-apache-hosting
-Deploy a static website on an Apache Web Server using an Amazon EC2 instance. The project demonstrates how to automate server setup using EC2 User Data and pull website code directly from GitHub. Ideal for beginners learning AWS EC2, Apache, and GitHub integration.
+# 🚀 EC2-Apache-WebServer Deployment Project
+
+This project demonstrates how to deploy a static website hosted on an Apache Web Server using an Amazon EC2 instance. The source code for the website is pulled directly from this GitHub repository.
+
+##  Tech Stack
+
+- Amazon EC2  
+- Apache HTTP Server  
+- GitHub  
+- User Data Script (for automation)  
+- Amazon Linux 2
+
+##  Steps to Reproduce
+
+1. **Launch EC2**: Amazon Linux 2, t2.micro (Free Tier), open ports 22 & 80.
+2. **User Data Script**:
+
+```bash
+#!/bin/bash
+yum update -y
+yum install -y httpd git
+systemctl start httpd
+systemctl enable httpd
+cd /var/www/html
+git clone https://github.com/your-username/EC2-Apache-WebServer-Deployment.git .
+```
+
+3. **Access site**: http://<your-ec2-public-ip>
+
+##  Files
+
+- index.html  
+- README.md
+
+---
