@@ -13,7 +13,7 @@ This project demonstrates how to deploy a static website hosted on an Apache Web
   
 ## 02. Network Architecture
 
-![VPC Network Diagram](Architercture/aws-vpc-network-diagram.png)
+![VPC Network Diagram](Architecture.png)
 
 
 
@@ -37,7 +37,7 @@ git clone https://github.com/your-username/EC2-Apache-WebServer-Deployment.git .
 
 
 ##  Files
-
+- Architecture.png
 - index.html  
 - README.md
 
