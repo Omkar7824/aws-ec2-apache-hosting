@@ -53,7 +53,7 @@ This project demonstrates how to deploy a static website hosted on an Apache Web
 
 ## Output
 
-1. **Access site**: //http://15.206.174.242/>
+1. **Access site**: //http://15.206.174.242
 
 ---
 
